@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/style.css" />
-    <title>Document</title>
-  </head>
+    <title>Google</title>
+    <link rel="stylesheet" href="/google-homepage/css/style.css" />
+</head>
 
-  <body>
-    <div class="page">
-      <div class="page-container">
-        <!-- navigation -->
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item"><a href="#" class="nav-link">Gmail</a></li>
-            <li class="nav__item"><a href="#" class="nav__link">Images</a></li>
-            <li class="nav__item nav__item--app">
-              <svg
-                id="Layer_1"
-                data-name="Layer 1"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 100 100"
-              >
-                <rect x="37" width="26" height="26" />
-                <rect width="26" height="26" />
-                <rect x="74" width="26" height="26" />
-                <rect x="37" y="37" width="26" height="26" />
-                <rect y="37" width="26" height="26" />
-                <rect x="74" y="37" width="26" height="26" />
-                <rect x="37" y="74" width="26" height="26" />
-                <rect y="74" width="26" height="26" />
-                <rect x="74" y="74" width="26" height="26" />
-              </svg>
-            </li>
-            <li class="nav__item nav__item--profile">
-              <a href="https://github.com/winasBen" target="_blank"></a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </body>
+<body>
+    <nav class="nav">
+        <a class="nav-link" href="#">Gmail</a>
+        <a class="nav-link" href="#">Images</a>
+        <button class="button-apps" href="#"></button>
+        <!-- <button class="button-sign-in">Sign In</button> -->
+        <a href="https://github.com/winasBen" class="user-logo" target="_blank">
+            <img src="/google-homepage/images/logo.png" alt="" />
+        </a>
+    </nav>
+    <main class="main">
+        <img class="logo" src="/google-homepage/images/google-img.png" alt="" />
+        <div class="searchbar">
+            <img class="search-icon" src="/google-homepage/images/google-search.png" alt="" />
+            <input class="search-input" type="text" />
+            <button>
+                <img class="microphone-icon" src="/google-homepage/images/google-mic.png" alt="" />
+            </button>
+        </div>
+        <div class="search-buttons">
+            <button class="button-search">Google search</button>
+            <button class="button-search">I'm Feeling Lucky</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="left-section">
+            <a class="footer-link" href="#">Advertising</a>
+            <a class="footer-link" href="#">Business</a>
+            <a class="footer-link" href="#">About</a>
+            <a class="footer-link" href="#">How Search works</a>
+        </div>
+        <div class="right-section">
+            <a class="footer-link" href="#">Privacy</a>
+            <a class="footer-link" href="#">Terms</a>
+            <a class="footer-link" href="#">Settings</a>
+        </div>
+    </footer>
+</body>
+
 </html>
